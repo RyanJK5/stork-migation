@@ -1,0 +1,39 @@
+<nav class="sidebar-menu">
+  {#if menu}
+    <ul class="menu-list">
+      {#for item in menu}
+        {#if item.items??}
+          <!-- Section with nested items -->
+          <li class="menu-section">
+            {#if item.title}
+              <span class="menu-section-title">{item.title}</span>
+            {/if}
+            <ul class="menu-sublist">
+              {#for subitem in item.items}
+                <li class="menu-item">
+                  {#if subitem.path}
+                    <a href="{subitem.path}" class="menu-link">
+                      {subitem.title}
+                    </a>
+                  {/if}
+                </li>
+              {/for}
+            </ul>
+          </li>
+        {#else if item.path??}
+          <!-- Regular menu item -->
+          <li class="menu-item">
+            <a href="{item.path}" class="menu-link">
+              {item.title}
+            </a>
+          </li>
+        {#else}
+          <!-- Section header without nested items -->
+          <li class="menu-section">
+            <span class="menu-section-title">{item.title}</span>
+          </li>
+        {/if}
+      {/for}
+    </ul>
+  {/if}
+</nav>

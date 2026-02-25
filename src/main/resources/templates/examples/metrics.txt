@@ -1,0 +1,30 @@
+# HELP stork_load_balancer_failures_total The number of failures during service selection.
+# TYPE stork_load_balancer_failures_total counter
+stork_load_balancer_failures_total{service_name="hello-service",} 0.0
+# HELP stork_service_selection_duration_seconds The duration of the selection operation 
+# TYPE stork_service_selection_duration_seconds summary
+stork_service_selection_duration_seconds_count{service_name="hello-service",} 13.0
+stork_service_selection_duration_seconds_sum{service_name="hello-service",} 0.001049291
+# HELP stork_service_selection_duration_seconds_max The duration of the selection operation 
+# TYPE stork_service_selection_duration_seconds_max gauge
+stork_service_selection_duration_seconds_max{service_name="hello-service",} 0.0
+# HELP stork_overall_duration_seconds_max The total duration of the Stork service discovery and selection operations
+# TYPE stork_overall_duration_seconds_max gauge
+stork_overall_duration_seconds_max{service_name="hello-service",} 0.0
+# HELP stork_overall_duration_seconds The total duration of the Stork service discovery and selection operations
+# TYPE stork_overall_duration_seconds summary
+stork_overall_duration_seconds_count{service_name="hello-service",} 13.0
+stork_overall_duration_seconds_sum{service_name="hello-service",} 0.001049291
+# HELP stork_service_discovery_failures_total The number of failures during service discovery
+# TYPE stork_service_discovery_failures_total counter
+stork_service_discovery_failures_total{service_name="hello-service",} 0.0
+# HELP stork_service_discovery_duration_seconds_max The duration of the discovery operation
+# TYPE stork_service_discovery_duration_seconds_max gauge
+stork_service_discovery_duration_seconds_max{service_name="hello-service",} 0.0
+# HELP stork_service_discovery_duration_seconds The duration of the discovery operation
+# TYPE stork_service_discovery_duration_seconds summary
+stork_service_discovery_duration_seconds_count{service_name="hello-service",} 13.0
+stork_service_discovery_duration_seconds_sum{service_name="hello-service",} 6.585046209
+# HELP stork_instances_count_total The number of service instances discovered
+# TYPE stork_instances_count_total counter
+stork_instances_count_total{service_name="hello-service",} 26.0
