@@ -35,4 +35,4 @@ For each service expected to use a least-response-time selection, configure the 
 
 Supported configuration properties are the following:
 
---8<-- "target/attributes/META-INF/stork-docs/least-requests-lb-attributes.txt"
+{#include "target/attributes/META-INF/stork-docs/least-requests-lb-attributes.txt"}

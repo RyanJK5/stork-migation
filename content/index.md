@@ -38,16 +38,14 @@ IPs get randomly assigned, and instances can be created or destroyed at any time
 With such dynamics, hard-coded locations are a dead-end.
 
 
-![the problem](images/problem-light.png#only-light)
-![the problem](images/problem-dark.png#only-dark)
+![the problem](images/problem-light.png)
 
 ## The solution
 
 Stork handles the service lookup and selection.
 It proposes an extensible set of service discovery mechanisms and load-balancing strategies.
 
-![the solution](images/solution-light.png#only-light)
-![the solution](images/solution-dark.png#only-dark)
+![the solution](images/solution-light.png)
 
 ## What if the infrastructure provides such a feature?
 

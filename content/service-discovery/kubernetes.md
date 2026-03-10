@@ -164,9 +164,7 @@ This guarantees that all `(address, port)` combinations returned by Stork are va
 
 Supported attributes are the following:
 
---8<-- "target/attributes/META-INF/stork-docs/kubernetes-sd-attributes.txt"
-
-
+{#include "target/attributes/META-INF/stork-docs/kubernetes-sd-attributes.txt"}
 ## Caching the service instances
 
 Contacting the cluster too much frequently can result in performance problems. It's why Kubernetes Service discovery extends `io.smallrye.stork.impl.CachingServiceDiscovery` to automatically _cache_ the service instances.

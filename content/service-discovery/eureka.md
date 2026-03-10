@@ -39,8 +39,7 @@ Stork looks for the service with the given name (`my-service` in the previous ex
 
 Supported attributes are the following:
 
---8<-- "target/attributes/META-INF/stork-docs/eureka-sd-attributes.txt"
-
+{#include "target/attributes/META-INF/stork-docs/eureka-sd-attributes.txt"}
 The `application` attribute is optional.
 It uses the Stork service name (`my-service` in the previous configuration) if not set.
 

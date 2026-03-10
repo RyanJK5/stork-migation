@@ -43,8 +43,7 @@ For each service expected to use a least-response-time selection, configure the 
 
 The following attributes are supported:
 
---8<-- "../load-balancer/least-response-time/target/classes/META-INF/stork-docs/least-response-time-lb-attributes.txt"
-
+{#include "../load-balancer/least-response-time/target/classes/META-INF/stork-docs/least-response-time-lb-attributes.txt"}
 ## Score calculation
 
 The *score* of a service instance is calculated by dividing a weighted sum of response times by sum of the weighs. The result is additionally adjusted to account for instances that haven't been used for a long time.
@@ -72,4 +71,4 @@ The `declining-factor` should be in $(0, 1]$ , the default is $0.9$. Using a low
 
 Supported configuration properties are the following:
 
---8<-- "target/attributes/META-INF/stork-docs/least-response-time-lb-attributes.txt"
+{#include "target/attributes/META-INF/stork-docs/least-response-time-lb-attributes.txt"}

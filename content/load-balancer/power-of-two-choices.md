@@ -40,4 +40,4 @@ For each service expected to use a random service selection, configure the `load
 
 Supported configuration properties are the following:
 
---8<-- "target/attributes/META-INF/stork-docs/power-of-two-choices-lb-attributes.txt"
+{#include "target/attributes/META-INF/stork-docs/power-of-two-choices-lb-attributes.txt"}

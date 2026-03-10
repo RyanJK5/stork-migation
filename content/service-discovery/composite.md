@@ -48,4 +48,4 @@ it relies on the performance of the service discovery systems it’s configured 
 
 These are all the parameters of the composite service discovery:
 
---8<-- "target/attributes/META-INF/stork-docs/composite-sd-attributes.txt"
+{#include "target/attributes/META-INF/stork-docs/composite-sd-attributes.txt"}

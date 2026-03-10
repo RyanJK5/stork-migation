@@ -16,8 +16,10 @@ The _target_ returned in an _SRV_ record needs to be resolved further by an _A_ 
 
 In short, it works as follows:
 
-![DNS service discovery](../target/srv_sequence.svg#only-light)
-![DNS service discovery](../target/srv_sequence_dark.svg#only-dark)
+{#diagram language="plantuml" alt="DNS service discovery" width=1075 height=364 diagramOutputFormat="svg"}
+{#include diagrams/srv_sequence.puml /}
+{/}
+
 
 ## Dependency
 
@@ -54,5 +56,4 @@ All in all, your configuration could look as follows:
 
 All the available parameters are as follows:
 
---8<-- "target/attributes/META-INF/stork-docs/dns-sd-attributes.txt"
-
+{#include "target/attributes/META-INF/stork-docs/dns-sd-attributes.txt"}

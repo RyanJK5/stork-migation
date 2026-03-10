@@ -13,8 +13,9 @@ You can extend the metrics collection by extending the `StorkEventHandler` inter
 The following sequence diagram shows how the observability is initialized : 
 
 
-![observability initialization](target/observability_sequence.svg#only-light)
-![observability initialization](target/observability_sequence_dark.svg#only-dark)
+{#diagram language="plantuml" alt="observability initialization" diagramOutputFormat="svg"}
+{#include diagrams/observability_sequence.puml /}
+{/}
 
 
 
@@ -41,8 +42,9 @@ It happens when the `StorkObservation#onServiceSelectionSuccess` gets called.
 The following sequence diagram represents the described observation process above:
 
 
-  ![observation_process](target/observation_sequence.svg#only-light)
-  ![observation_process](target/observation_sequence_dark.svg#only-dark)
+{#diagram language="plantuml" alt="observation_process" diagramOutputFormat="svg"}
+{#include diagrams/observation_sequence.puml /}
+{/}
 
 
 

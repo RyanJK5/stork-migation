@@ -95,9 +95,7 @@ Stork inspects the _Knative Service_ and retrieves the url of the service.
 
 Supported attributes are the following:
 
---8<-- "target/attributes/META-INF/stork-docs/knative-sd-attributes.txt"
-
-
+{#include "target/attributes/META-INF/stork-docs/knative-sd-attributes.txt"}
 ## Caching the service instances
 
 Contacting the cluster too much frequently can result in performance problems. It's why Knative Service discovery extends `io.smallrye.stork.impl.CachingServiceDiscovery` to automatically _cache_ the service instances.
