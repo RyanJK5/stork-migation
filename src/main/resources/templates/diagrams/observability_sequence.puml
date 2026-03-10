@@ -1,6 +1,6 @@
 @startuml
 
-{#include diagrams/includes/themes/light.puml}
+{#include diagrams/includes/themes/light.puml /}
 
 skinparam sequenceMessageAlign center
 autonumber "<b>(0)"
