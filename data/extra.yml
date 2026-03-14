@@ -1,2 +1,4 @@
+name: Smallrye Stork
+repo_url: https://github.com/smallrye/smallrye-stork
 version:
   current: SNAPSHOT

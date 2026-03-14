@@ -13,7 +13,7 @@ You can extend the metrics collection by extending the `StorkEventHandler` inter
 The following sequence diagram shows how the observability is initialized : 
 
 
-{#diagram language="plantuml" alt="observability initialization" width=550 height=173W diagramOutputFormat="svg"}
+{#diagram language="plantuml" alt="observability initialization" width=550 height=173 diagramOutputFormat="svg"}
 {#include diagrams/observability_sequence.puml /}
 {/}
 
